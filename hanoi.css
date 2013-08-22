@@ -1,0 +1,17 @@
+p {
+  visibility: hidden;
+}
+
+div {
+  margin-bottom: 10px;
+  height: 70px;
+}
+
+span {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+  background-color: blue;
+  vertical-align: middle;
+}
