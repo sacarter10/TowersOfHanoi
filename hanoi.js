@@ -66,7 +66,6 @@ var Hanoi = {
   Game.prototype.start = function () {
 
     this.printBoard();
-    //$('span.Tower1').css('background-color', 'red');
 
     var game = this;
 
@@ -86,10 +85,6 @@ var Hanoi = {
       $('p.to-which').css('visibility', 'visible');
     }
   };
-
-  Game.prototype.makeMove = function() {
-
-  }
 
   Game.prototype.printBoard = function() {
     $('.board').empty();
